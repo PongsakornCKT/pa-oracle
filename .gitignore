@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+.env.*
+credentials.json
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+
+# Oracle active/temp
+ψ/active/
+ψ/memory/logs/
+ψ/learn/
+ψ/.awaken-state.json
