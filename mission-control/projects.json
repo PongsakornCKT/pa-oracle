@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "oracle": "pa-oracle",
+  "description": "Mission Control — pa Oracle project registry",
+  "projects": [
+    {
+      "id": "01",
+      "name": "pa-oracle",
+      "path": "C:\\Users\\pO-Ch\\Documents\\GitHub\\pa-Oracle v2",
+      "description": "pa Oracle — Eye of Ma'at 𓂀 (home base)",
+      "oracle": "pa-oracle",
+      "status": "active"
+    },
+    {
+      "id": "02",
+      "name": "arra-oracle-v3",
+      "path": "C:\\Users\\pO-Ch\\Documents\\GitHub\\arra-oracle-v3",
+      "description": "Oracle MCP Server — 22 tools, FTS5, Drizzle, HTTP API",
+      "oracle": "oracle",
+      "status": "active"
+    },
+    {
+      "id": "03",
+      "name": "probe-oracle",
+      "path": "C:\\Users\\pO-Ch\\Documents\\GitHub\\probe-oracle",
+      "description": "Probe Oracle — Research Agent 🔬 (P-Team)",
+      "oracle": "probe-oracle",
+      "status": "active"
+    }
+  ],
+  "notes": "เพิ่มโปรเจกต์ใหม่ด้วยคำสั่ง: mc add [name] [path]"
+}

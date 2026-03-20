@@ -25,3 +25,18 @@ package-lock.json
 ψ/memory/logs/
 ψ/learn/
 ψ/.awaken-state.json
+
+# ChromaDB binary data
+ψ/memory/chroma_db/
+
+# Local settings
+.claude/settings.local.json
+.envrc
+.codex/
+
+# maw-js is separate repo
+maw-js/
+
+# Local agent dirs
+agents/
+.agents/
