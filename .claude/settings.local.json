@@ -3,11 +3,28 @@
     "allow": [
       "WebFetch(domain:gist.github.com)",
       "WebFetch(domain:github.com)",
-      "Bash(gh:*)", "Bash(ghq:*)", "Bash(git:*)",
-      "Bash(bun:*)", "Bash(mkdir:*)", "Bash(ln:*)",
-      "Bash(rg:*)", "Bash(date:*)", "Bash(ls:*)",
-      "Skill(learn)", "Skill(trace)", "Skill(awaken)",
-      "Skill(rrr)", "Skill(recap)", "Skill(project)"
+      "Bash(gh:*)",
+      "Bash(ghq:*)",
+      "Bash(git:*)",
+      "Bash(bun:*)",
+      "Bash(mkdir:*)",
+      "Bash(ln:*)",
+      "Bash(rg:*)",
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Skill(learn)",
+      "Skill(trace)",
+      "Skill(awaken)",
+      "Skill(rrr)",
+      "Skill(recap)",
+      "Skill(project)",
+      "WebSearch",
+      "mcp__oracle__arra_learn",
+      "WebFetch(domain:pongsakornckt.github.io)"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "oracle-pa"
+  ]
 }
