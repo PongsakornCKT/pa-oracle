@@ -8,6 +8,14 @@
 #   CLAUDE_PROJECT — project directory name
 #   CLAUDE_MESSAGE — the message/question text
 
+# Silence all output — prevents hook output from being fed back to Claude as prompt
+exec >/dev/null 2>&1
+
+# Re-entrancy guard — prevents hook loops
+[ -f "/tmp/feed-hook.active" ] && exit 0
+touch "/tmp/feed-hook.active"
+trap 'rm -f /tmp/feed-hook.active' EXIT
+
 FEED_LOG="$HOME/.oracle/feed.log"
 MAW_LOG="$HOME/.oracle/maw-log.jsonl"
 HOSTNAME=$(hostname)
